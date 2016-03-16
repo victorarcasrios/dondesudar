@@ -1,0 +1,83 @@
+/* Estilo CSS principal */
+/* 
+    Created on : 16-mar-2014, 16:44:08
+    Author     : Víctor
+*/
+
+body{
+    background-image: url("../img/bg.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+legend{
+    color: white;
+}
+
+select, .jumbotron, .panel-body, .popover, .well, .modal{
+    color: black;
+}
+
+.help-block{
+    color: #5CADFF;
+}
+
+.oculto{
+    display: none;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.disabledGym{
+    background: whitesmoke;
+}
+
+.profileImg{
+    height: 200px;
+    width: 200px;
+}
+
+.avatarOnComment{
+    height: 40px;
+    width: 40px;
+}
+
+.gymImageOnEdit{
+    height: 200px;
+    width: 280px;
+    padding: 5px;
+    background: whitesmoke;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.thumnailOnEdit{
+    margin: 10px;
+}
+
+.sliderContainer{
+    padding: 10px;
+    background: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 15px;
+    max-height: 450px;
+}
+
+.sliderContainer div img{
+    max-height: 400px;
+}
+
+.imageCheckbox{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
